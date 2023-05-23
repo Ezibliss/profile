@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+        .top-container{
+            background-image: url(bac.jpg);
+            background-size: auto;
+            height: 100vh;
+            padding-top: 100px;
+            
+        }
+        .title-text{
+            display: block;
+        }
+        h1{
+            font-family: "Sacramento", cursive;
+            font-size: 5rem;
+        }
+        h1,h2{
+          text-align: center; 
+          color: goldenrod; 
+
+        }
+        .middle-container{
+            margin: 100px;
+        }
+        .profile{
+            display: block;
+                    
+        }
+        .mypic{
+            border-radius: 50%;
+        }
+        .intro{
+            width: 30%;
+            margin: auto;
+        }
+        .foot{
+            margin-top: 20px;
+            padding: 30px 0px 30px;
+            background-color: purple;
+        }
+        .footer-link{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px;
+        }
+        .copyright{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-container">
+       
+        <div class="title-text">
+        <h1>I'm Abel Bliss</h1>
+        <h2>a Soldier🪖 and programmer🧑‍💻.</h2>
+        </div>
+       
+    </div>
+
+    <div class="middle-container profile">
+        <img class="mypic" src="mypic.png" alt="my picture">
+        <h2>Hello.</h2>
+        <p class="intro">I am a Soldier🪖 and also a web developer. At my spare time I love to build wonderful and beautiful websites.</p>
+    </div>
+
+    <div class="bottom-container">
+        <h2>Projects</h2>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+               <img src="car ad.png" alt="car ad" height="400">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" href="https://ezibliss.github.io/3-column/">Learn More</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="Interactive.png" alt="interactive page" height="400">
+                <div class="container">
+                  <div class="carousel-caption">
+                    
+                    <p><a class="btn btn-lg btn-primary" href="https://ezibliss.github.io/interactive/">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="login page.png" alt="login page" height="400">
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <p>A login page.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="foot">
+        <footer>
+            <a class="footer-link fa fa-facebook" href="https://www.facebook.com/abel.bliss">Facebook</a>
+            <a class="footer-link" href="https://www.linkedin.com/in/ezichi-abel-01594474/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/EziBliss">Twitter</a>
+            <a class="footer-link" href="https://github.com/Ezibliss">Github</a> <br/><br/>
+            <p class="copyright">&copy; 2023 Abel Ezichi</p> 
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
